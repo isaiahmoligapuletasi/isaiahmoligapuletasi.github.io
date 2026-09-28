@@ -1,5 +1,8 @@
 ---
 title: "Data Visualization"
+output:
+  warnings: false
+  messages: false
 ---
 
 ```{r}
