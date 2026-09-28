@@ -2,14 +2,21 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "isaiahmoligapuletasi.github.io",
+    "title": "Isaiah Moliga-Puletasi",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Isaiah Moliga-Puletasi (he/him) is a third-year at Pomona College majoring in English and art history with a minor in data science. His data science research seeks to archive and record literature, material, and cultural artifacts."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "dataviz.html",
+    "href": "dataviz.html",
+    "title": "Data Visualization",
     "section": "",
     "text": "About this site"
   }

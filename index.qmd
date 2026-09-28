@@ -1,7 +1,21 @@
 ---
-title: "isaiahmoligapuletasi.github.io"
+title: "Isaiah Moliga-Puletasi"
+image: IsaiahMoliga-PuletasiPolaroid.png
+toc: false
+about: 
+  template: jolla
+  image-shape: rectangle
+  image-width: 8em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/isaiahmoligapuletasi/
+      target: _blank
+    - text: GitHub
+      href: https://github.com/isaiahmoligapuletasi
+      target: _blank 
+    - text: Email
+      href: mailto:isaiahpuletasi@gmail.com
 ---
 
-This is a Quarto website.
+Isaiah Moliga-Puletasi (he/him) is a third-year at Pomona College majoring in English and art history with a minor in data science. His data science research seeks to archive and record literature, material, and cultural artifacts.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
