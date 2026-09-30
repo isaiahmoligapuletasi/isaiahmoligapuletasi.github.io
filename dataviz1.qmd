@@ -1,11 +1,13 @@
 ```{r}
+
+library(tidyverse)
+
 mta_art <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-22/mta_art.csv')
 station_lines <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-22/station_lines.csv')
 
 new_mta_art <- mta_art |> 
     select(agency, artist) |>
-    group_by(agency) |>
-    mutate(count = summarise?)
+    group_by(agency) 
 
 new_mta_art |> 
     ggplot(aes(x= agency)) +
