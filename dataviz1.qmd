@@ -1,3 +1,17 @@
+---
+title: "MTA Permanent Art Catalog: Number of art pieces across NY transit (2025)"
+subtitle: "due Wednesday, September 30, 2026"
+author: "Isaiah Moliga-Puletasi"
+format: html
+execute: 
+  warning: false
+  message: false
+---
+Citation: This dataset comes from TidyTuesday's 7-22-25 weekly data challenge, [MTA Permanent Art Collection](https://github.com/rfordatascience/tidytuesday/blob/main/data/2025/2025-07-22/readme.md), curated by Jon Harmon and suggested by Georgios Karamanis. The [data](https://data.ny.gov/resource/4y8j-9pkd) is dervied from State of New York's public data on MTA's art catalog. 
+
+Description: The MTA Permanent Art Collection dataset collects artist, art, and geographic data across NY transit systems to examine its collection of public art. By documenting public art information, NY can examine its relationship to arts and culture, as well as transit infrastructure development.  
+
+
 ```{r}
 
 library(tidyverse)
@@ -15,7 +29,7 @@ new_mta_art |>
     labs(
         x = "Transit agency",
         y = "",
-        title = "# of art pieces across NY transit (2025)"
+        title = "Number of art pieces across NY transit (2025)"
     )
 
 

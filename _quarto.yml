@@ -11,9 +11,9 @@ website:
       - text: Data Visualization
         menu:
         - href: dataviz.qmd
-          text: "1"
+          text: Total number of sheep in New Zealand (1935-2024)
         - href: dataviz1.qmd
-          text: "2"
+          text: Number of art pieces across NY transit (2025)
 
 format:
   html:

@@ -6,10 +6,12 @@
     "about.html": "f0ee6435"
   },
   "dataviz.qmd": {
-    "dataviz.html": "c4bc5157"
+    "dataviz.html": "c4bc5157",
+    "dataviz.tex": "292c8eff"
   },
   "dataviz1.qmd": {
-    "dataviz1.html": "913b9ae8"
+    "dataviz1.html": "913b9ae8",
+    "dataviz1.tex": "0f577cbd"
   },
   "Data Viz/dataviz1.qmd": {
     "dataviz1.html": "a0e2d4b6"

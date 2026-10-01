@@ -1,9 +1,16 @@
 ---
-title: "Data Visualization"
-output:
-  warnings: false
-  messages: false
+title: "Agricultural Production Statistics in New Zealand: Total number of sheep in New Zealand (1935-2024)"
+subtitle: "due Wednesday, September 30, 2026"
+author: "Isaiah Moliga-Puletasi"
+format: html
+execute: 
+  warning: false
+  message: false
 ---
+Citation: This dataset comes from TidyTuesday's 2-17-26 weekly data challenge, [Agricultural Production Statistics in New Zealand
+](https://github.com/rfordatascience/tidytuesday/blob/main/data/2026/2026-02-17/readme.md), curated by Jen Richmond. The [data](https://datainfoplus.stats.govt.nz/item/nz.govt.stats/eb7208cf-2f0f-416a-bd77-2fdbb9043255?_ga=2.264735308.2106648024.1715287902-1399521469.1678132138) is dervied from Figure.NZ.
+
+Description: The Agricultural Production Statistics in New Zealand dataset provides quantitative information on New Zealand's agricultural systems. By collecting agricultural data in New Zealand, we can see the human-agriculture relations that arise over time. This dataset is particulary interested in the decline of sheep populations relative to humans over. 
 
 ```{r}
 library(tidyverse)
@@ -20,7 +27,7 @@ new_dataset |>
     ggplot(aes(x = year_ended_june, y = value)) +
     geom_line() + 
     labs(
-        title = "Total # of sheep in New Zealand (1935-2024)",
+        title = "Total number of sheep in New Zealand (1935-2024)",
         x = "Year",
         y = ""
     )
