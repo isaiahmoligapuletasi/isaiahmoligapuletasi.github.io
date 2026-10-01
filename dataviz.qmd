@@ -12,11 +12,12 @@ Citation: This dataset comes from TidyTuesday's 2-17-26 weekly data challenge, [
 
 Description: The Agricultural Production Statistics in New Zealand dataset provides quantitative information on New Zealand's agricultural systems. By collecting agricultural data in New Zealand, we can see the human-agriculture relations that arise over time. This dataset is particulary interested in the decline of sheep populations relative to humans over. 
 
-```{r}
-library(tidyverse)
-```
+
 
 ```{r}
+
+library(tidyverse)
+
 dataset <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-02-17/dataset.csv')
 
 new_dataset <- dataset |>
@@ -31,6 +32,5 @@ new_dataset |>
         x = "Year",
         y = ""
     )
-new_dataset
 ```
 

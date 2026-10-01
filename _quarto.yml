@@ -8,7 +8,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: Data Visualization
+      - text: Data Viz
         menu:
         - href: dataviz.qmd
           text: Total number of sheep in New Zealand (1935-2024)
