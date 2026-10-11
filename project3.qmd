@@ -1,0 +1,22 @@
+---
+title: "Project 3"
+---
+
+```{r}
+library(RTextTools)
+library(tidyverse)
+library(lubridate)
+
+data(NYTimes)
+
+NYTimes_test <- NYTimes |>
+    mutate(Date = dmy(as.character(Date)),
+           Year = as.integer(year(Date))) |>
+    select(Article_ID, Year) |>
+    ggplot(aes(x=Year)) + 
+    geom_bar()
+
+
+
+    
+```
