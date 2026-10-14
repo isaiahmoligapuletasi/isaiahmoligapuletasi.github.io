@@ -68,7 +68,7 @@ NYTimes_Month |>
     annotate("point", x = 2003, y =49) + 
     labs(
         title = "Occurrence of 'kill'; 'war'; 'violence' in NYT headlines (1996-2006)",
-        x = "",
+        x = "Year",
         y = "Count"
     )
 ```
