@@ -1,6 +1,6 @@
 ---
 title: "Agricultural Production Statistics in New Zealand: Total number of sheep in New Zealand (1935-2024)"
-subtitle: "due Wednesday, September 30, 2026"
+subtitle: "last updated: September 30, 2026"
 author: "Isaiah Moliga-Puletasi"
 format: html
 execute: 

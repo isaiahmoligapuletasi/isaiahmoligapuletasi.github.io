@@ -1,6 +1,6 @@
 ---
 title: "MTA Permanent Art Catalog: Number of art pieces across NY transit (2025)"
-subtitle: "due Wednesday, September 30, 2026"
+subtitle: "last updated: September 30, 2026"
 author: "Isaiah Moliga-Puletasi"
 format: html
 execute: 

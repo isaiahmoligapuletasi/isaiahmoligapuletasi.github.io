@@ -1,16 +1,21 @@
 ---
-title: "Project 3"
+title: "Project 3: NYT Headline Analysis (1996-2006)"
 subtitle: "last updated: October 13, 2026"
 author: "Isaiah Moliga-Puletasi"
-format: html
-execute: 
+format:
+  html:
+    code-fold: true
+    code-tools: true
+execute:
   warning: false
   message: false
 ---
 
-Citation:
+Citation: This dataset was compiled by Professor of Political Science Amber E. Boydstun at the University of California Davis. You can access access the dataset [here](https://www.amber-boydstun.com/supplementary-information-for-making-the-news.html); Professor Boydstun also provides a handbook to the data [here](https://www.amber-boydstun.com/uploads/1/0/6/5/106535199/nyt_front_page_policy_agendas_codebook.pdf).
 
 ```{r}
+#| fold: true
+
 library(RTextTools)
 library(tidyverse)
 library(lubridate)
@@ -45,6 +50,7 @@ Description: This column graph displays the top 30 words across all NYT article 
 this may suggest some correlation between U.S. media and war; violence; politics. 
 
 ```{r}
+#| fold: true
 NYTimes_Month <- NYTimes |>
     select(Date, Title) |>
     mutate(Date = as.integer(year(dmy(Date)))) |>
@@ -69,6 +75,6 @@ NYTimes_Month |>
 
 Description: This line graph displays the occurence of 'kill'; 'war'; and 'violence' across NYT headlines from 1996-2006. The trio of words
 appeared most often in NYT headlines in 2003, 49 times (concurrent to U.S. invasion of Iraq). They appear least frequent in 1998 and 2005, they tie for 10 times; 
-I am not sure what global-historical correlation these two years lower values represents. It is interesting to note the upward trend in these trio words
+I am not sure what global-historical correlation these two years' lower values represents. It is interesting to note the upward trend in these trio of words
 reported in NYT headlines following 2001 (the year 9/11 occured): the U.S.'s descent into global affair/war. 
 
