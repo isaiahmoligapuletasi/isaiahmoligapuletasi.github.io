@@ -1,5 +1,5 @@
 ---
-title: "Project 3: NYT Headline Analysis (1996-2006)"
+title: "Project 2: NYT Headline Analysis (1996-2006)"
 subtitle: "last updated: October 13, 2026"
 author: "Isaiah Moliga-Puletasi"
 format:

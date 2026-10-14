@@ -14,8 +14,8 @@ website:
           text: Total number of sheep in New Zealand (1935-2024)
         - href: dataviz1.qmd
           text: Number of art pieces across NY transit (2025)
-        - href: project3.qmd
-          text: Project 3 - NYT Headline Analysis (1996-2006)
+        - href: project2.qmd
+          text: Project 2 - NYT Headline Analysis (1996-2006)
 
 format:
   html:
